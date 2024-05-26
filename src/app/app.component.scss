@@ -1,0 +1,37 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    & a {
+    cursor: pointer;
+
+    }
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+textarea {
+    width: 80%;
+    height: 1000px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: beige;
+}
+#grid {
+    display: grid;
+    // grid-column-gap: 50px;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

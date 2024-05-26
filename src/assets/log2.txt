@@ -1,0 +1,1243 @@
+Notes:
+    - The report is generated using the combat log, which is far from perfect.
+    - Use the report as evidence something DID happen and keep in mind the data is not exhaustive. In other words the report DOES NOT cover everything.
+    - Some events are missing because the person logging wasn't in the instance yet or was too far away. This means inferring something DID NOT happen may be hard or impossible and requires extra care.
+    - Jujus and many foods are not in the combat log, so they can't be easily counted.
+    - Dragonbreath chili and goblin sappers have only "on hit" messages, so their usage is estimated based on timestamps and cooldowns.
+    - Mageblood and some other mana consumes are "mana regeneration" in the combat log, can't tell them apart.
+    - Lesser, greater protection potions and frozen runes don't have unique names, can't tell them apart.
+    - Nordanaar Herbal Tea casts the same spell as Tea with Sugar, can't tell them apart.
+    - Gift of Arthas looks like a buff on both players and NPCs, which messes up player detection, so it's not tracked.
+
+
+Agonist deaths:4
+   Arcane Protection 1 
+   Consecrated Sharpening Stone 2   (10g 62s 82c)
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 4   (10g 94s 64c)
+   Frost Protection 1 
+   Healing Potion - Major 4   (2g 27s 36c)
+   Mighty Rage Potion 4   (13g 81s 44c)
+   Nature Protection 2 
+   Rage Potion 5 
+   Rage of Ages (ROIDS) 2   (6g 35s 50c)
+   Regeneration 2 
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Stratholme Holy Water 4 
+   Tea with Sugar 10   (2g 19s 90c)
+   Winterfall Firewater 6   (11g 69s 94c)
+
+   total spent: 76g 25s 31c
+Almout deaths:4
+   Flask of Distilled Wisdom 1   (73g 98s 79c)
+   Frost Protection 1 
+   Mana Potion - Major 5   (11g 2s 25c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 7   (1g 53s 93c)
+
+   total spent: 96g 89s 24c
+Ancst deaths:5
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Brilliant Wizard Oil 1   (1g 22s 95c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Dreamtonic 6   (7g 55s 88c)
+   Elixir of Greater Firepower 3   (13g 54s 35c)
+   Elixir of Shadow Power 3   (11g 69s 58c)
+   Fire Protection 2 
+   Flask of Supreme Power 2   (162g 39s 88c)
+   Frost Protection 2 
+   Goblin Sapper Charge 2   (5g 99s 98c)
+   Greater Arcane Elixir 3   (11g 99s 88c)
+   Increased Intellect 10 
+   Infallible Mind (Cerebral Cortex Compound) 3   (24g 86s 34c)
+   Invulnerability 1   (2g 90s 61c)
+   Mana Potion - Major 4   (8g 81s 80c)
+   Mana Potion - Superior 3   (1g 48s 44c)
+   Medivh's Merlot Blue Label 9   (16g 1s 46c)
+   Shadow Protection 1   (7g 94s 99c)
+   Stratholme Holy Water 2 
+   Tea with Sugar 3   (65s 97c)
+
+   total spent: 292g 38s 25c
+Aquatic deaths:4
+   Brilliant Wizard Oil 5   (6g 14s 75c)
+   Elixir of Greater Firepower 3   (13g 54s 35c)
+   Fire Protection 1 
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Frost Protection 4 
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Invulnerability 1   (2g 90s 61c)
+   Mana Potion - Major 1   (2g 20s 45c)
+   Mana Regeneration (food or mageblood) 3 
+   Nature Protection 2 
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+
+   total spent: 120g 34s 33c
+Babystone deaths:2
+   Consecrated Sharpening Stone 6   (31g 88s 46c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Invulnerability 2   (5g 81s 22c)
+   Potion of Quickness 5   (14g 77s 40c)
+   Powerful Anti-Venom 1   (1g 10s 68c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Strike of the Scorpok 2   (8g 2s 84c)
+   Tea with Sugar 2   (43s 98c)
+
+   total spent: 78g 38s 33c
+Backtomay deaths:4
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Dreamtonic 3   (3g 77s 94c)
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of Greater Firepower 3   (13g 54s 35c)
+   Frost Protection 1 
+   Greater Arcane Elixir 2   (7g 99s 92c)
+   Healing Potion - Major 1   (56s 84c)
+   Increased Intellect 6 
+   Infallible Mind (Cerebral Cortex Compound) 2   (16g 57s 56c)
+   Invulnerability 1   (2g 90s 61c)
+   Mana Potion - Major 4   (8g 81s 80c)
+   Nature Protection 1 
+   Rumsey Rum Black Label 1   (68s 25c)
+   Shadow Protection 1   (7g 94s 99c)
+   Stratholme Holy Water 2 
+   Tea with Sugar 10   (2g 19s 90c)
+
+   total spent: 82g 28s 26c
+Bobsterr deaths:2
+   Brilliant Wizard Oil 4   (4g 91s 80c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Elixir of Fortitude 1   (99s 98c)
+   Fire Protection 1 
+   Frost Protection 2 
+   Increased Stamina 4 
+   Infallible Mind (Cerebral Cortex Compound) 1   (8g 28s 78c)
+   Mana Potion - Major 6   (13g 22s 70c)
+   Medivh's Merlot Blue Label 9   (16g 1s 46c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Tea with Sugar 6   (1g 31s 94c)
+
+   total spent: 59g 89s 31c
+Complexity deaths:9
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Healing Potion - Major 1   (56s 84c)
+   Invulnerability 1   (2g 90s 61c)
+   Rage of Ages (ROIDS) 3   (9g 53s 25c)
+   Shadow Protection 1   (7g 94s 99c)
+   Winterfall Firewater 10   (19g 49s 90c)
+
+   total spent: 49g 44s 81c
+Cracklinoats deaths:8
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Frost Protection 1 
+   Spirit of Zanza 2   (4g 78s 56c)
+   Winterfall Firewater 6   (11g 69s 94c)
+
+   total spent: 25g 47s 72c
+Deathstruck deaths:4
+   Consecrated Sharpening Stone 3   (15g 94s 23c)
+   Dense Dynamite 1   (57s 43c)
+   Dragonbreath Chili 1   (2g 22s 98c)
+   Elemental Sharpening Stone 1   (8g 97s 50c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 4 
+   Goblin Sapper Charge 3   (8g 99s 97c)
+   Mighty Rage Potion 13   (44g 89s 68c)
+   Nature Protection 1 
+   Rage of Ages (ROIDS) 2   (6g 35s 50c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Stratholme Holy Water 13 
+   Winterfall Firewater 5   (9g 74s 95c)
+
+   total spent: 116g 71s 26c
+Drapes deaths:3
+   Arcane Protection 2 
+   Consecrated Sharpening Stone 6   (31g 88s 46c)
+   Dense Dynamite 5   (2g 87s 15c)
+   Dense Weighstone 1 
+   Elemental Sharpening Stone 1   (8g 97s 50c)
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 4 
+   Goblin Sapper Charge 5   (14g 99s 95c)
+   Increased Stamina 1 
+   Invulnerability 1   (2g 90s 61c)
+   Mighty Rage Potion 8   (27g 62s 88c)
+   Nature Protection 3 
+   Rage of Ages (ROIDS) 3   (9g 53s 25c)
+   Rumsey Rum Black Label 1   (68s 25c)
+   Shadow Protection 3   (23g 84s 97c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Stratholme Holy Water 13 
+   Tea with Sugar 7   (1g 53s 93c)
+   Winterfall Firewater 6   (11g 69s 94c)
+
+   total spent: 159g 55s 63c
+Elsafrost deaths:11
+   ??? Lesser Stoneshield Potion ??? 1 
+   Arcane Elixir 2 
+   Blessed Wizard Oil 1   (5g 23s 97c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Mana Potion - Major 5   (11g 2s 25c)
+
+   total spent: 21g 4s 42c
+Exonskull deaths:4
+   Consecrated Sharpening Stone 3   (15g 94s 23c)
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of Superior Defense 3   (11g 24s 70c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Fire Protection 2 
+   Flask of the Titans 1   (86g 98s 12c)
+   Free Action Potion 2   (5g 47s 32c)
+   Greater Stoneshield 7   (32g 90s)
+   Increased Stamina 4 
+   Invulnerability 1   (2g 90s 61c)
+   Rage of Ages (ROIDS) 1   (3g 17s 75c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 2   (43s 98c)
+   Winterfall Firewater 1   (1g 94s 99c)
+
+   total spent: 171g 40s 42c
+Interlani deaths:4
+   Brilliant Wizard Oil 5   (6g 14s 75c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Elixir of Fortitude 1   (99s 98c)
+   Fire Protection 1 
+   Frost Protection 2 
+   Increased Intellect 2 
+   Infallible Mind (Cerebral Cortex Compound) 2   (16g 57s 56c)
+   Mana Potion - Major 7   (15g 43s 15c)
+   Mana Regeneration (food or mageblood) 7 
+   Medivh's Merlot Blue Label 5   (8g 89s 70c)
+   Nature Protection 2 
+   Rumsey Rum Black Label 2   (1g 36s 50c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 12   (2g 63s 88c)
+
+   total spent: 64g 78s 89c
+Jocaste deaths:2
+   Brilliant Wizard Oil 4   (4g 91s 80c)
+   Fire Protection 1 
+   Frost Protection 2 
+   Healing Potion - Major 1   (56s 84c)
+   Increased Stamina 2 
+   Nature Protection 2 
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 1   (21s 99c)
+
+   total spent: 16g 4s 90c
+Keeva deaths:6
+   Elixir of Greater Agility 2   (77s 26c)
+   Elixir of the Giants 2   (2g 65s 72c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 1 
+   Shadow Protection 1   (7g 94s 99c)
+
+   total spent: 25g 58s 43c
+Kuroiyuusha deaths:4
+   Elemental Sharpening Stone 4   (35g 90s)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 2 
+   Goblin Sapper Charge 1   (2g 99s 99c)
+   Healing Potion - Major 6   (3g 41s 4c)
+   Mighty Rage Potion 1   (3g 45s 36c)
+   Rage of Ages (ROIDS) 2   (6g 35s 50c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 8   (1g 75s 92c)
+   Winterfall Firewater 6   (11g 69s 94c)
+
+   total spent: 90g 12s 48c
+Martl deaths:4
+   Bogling Root 1   (1g 21s 98c)
+   Consecrated Sharpening Stone 3   (15g 94s 23c)
+   Dense Dynamite 6   (3g 44s 58c)
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 1 
+   Goblin Sapper Charge 7   (20g 99s 93c)
+   Great Rage Potion 1   (55s 89c)
+   Healing Potion - Superior 1   (3s 99c)
+   Invulnerability 1   (2g 90s 61c)
+   Mighty Rage Potion 15   (51g 80s 40c)
+   Rage of Ages (ROIDS) 2   (6g 35s 50c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Stratholme Holy Water 3 
+   Winterfall Firewater 6   (11g 69s 94c)
+
+   total spent: 135g 96s 3c
+Maybesomeday deaths:3
+   Dragonbreath Chili 1   (2g 22s 98c)
+   Elixir of the Mongoose 1   (2g 99s 74c)
+   Free Action Potion 3   (8g 20s 98c)
+   Goblin Sapper Charge 6   (17g 99s 94c)
+   Healing Potion - Major 2   (1g 13s 68c)
+   Invulnerability 3   (8g 71s 83c)
+   Mighty Rage Potion 9   (31g 8s 24c)
+   Rage of Ages (ROIDS) 1   (3g 17s 75c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Swiftness of Zanza 1   (2g 39s 28c)
+   Winterfall Firewater 4   (7g 79s 96c)
+
+   total spent: 90g 52s 94c
+Medion deaths:10
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Elixir of Shadow Power 3   (11g 69s 58c)
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Mana Potion - Superior 1   (49s 48c)
+
+   total spent: 112g 65s 10c
+Melriel deaths:0
+   <nothing found>
+Murto deaths:12
+   Consecrated Sharpening Stone 4   (21g 25s 64c)
+   Elixir of the Mongoose 3   (8g 99s 22c)
+
+   total spent: 30g 24s 86c
+Nehelenia deaths:6
+   Brilliant Wizard Oil 4   (4g 91s 80c)
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Healing Potion - Major 3   (1g 70s 52c)
+
+   total spent: 10g 62s 28c
+Nerilen deaths:7
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Dreamtonic 7   (8g 81s 86c)
+   Elixir of Shadow Power 3   (11g 69s 58c)
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Mana Potion - Greater 3   (38s 58c)
+   Mana Potion - Superior 1   (49s 48c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 3   (65s 97c)
+
+   total spent: 122g 51s 69c
+Ostkastare deaths:4
+   Brilliant Mana Oil 4   (6g 19s 88c)
+   Elixir of Fortitude 1   (99s 98c)
+   Flask of Distilled Wisdom 2   (147g 97s 58c)
+   Mana Potion - Major 9   (19g 84s 5c)
+   Shadow Protection 1   (7g 94s 99c)
+
+   total spent: 182g 96s 48c
+Pitbound deaths:5
+   Consecrated Sharpening Stone 1   (5g 31s 41c)
+   Dense Dynamite 1   (57s 43c)
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of Superior Defense 2   (7g 49s 80c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Flask of the Titans 1   (86g 98s 12c)
+   Free Action Potion 3   (8g 20s 98c)
+   Greater Stoneshield 2   (9g 40s)
+   Increased Stamina 3 
+   Invulnerability 1   (2g 90s 61c)
+   Medivh's Merlot 1   (3g 9s 99c)
+   Mighty Rage Potion 1   (3g 45s 36c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Winterfall Firewater 1   (1g 94s 99c)
+
+   total spent: 149g 11s 70c
+Plaguejak deaths:6
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Brilliant Wizard Oil 1   (1g 22s 95c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Dreamtonic 6   (7g 55s 88c)
+   Elixir of Shadow Power 3   (11g 69s 58c)
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Frost Protection 3 
+   Greater Arcane Elixir 2   (7g 99s 92c)
+   Invulnerability 2   (5g 81s 22c)
+   Mana Potion - Major 3   (6g 61s 35c)
+   Medivh's Merlot Blue Label 1   (1g 77s 94c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 8   (1g 75s 92c)
+
+   total spent: 143g 30s 12c
+Psykhe deaths:5
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of Superior Defense 1   (3g 74s 90c)
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Fire Protection 1 
+   Flask of the Titans 1   (86g 98s 12c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 1 
+   Great Rage Potion 1   (55s 89c)
+   Increased Stamina 1 
+   Jungle Remedy 4 
+   Mighty Rage Potion 4   (13g 81s 44c)
+   Rage of Ages (ROIDS) 3   (9g 53s 25c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Winterfall Firewater 8   (15g 59s 92c)
+
+   total spent: 150g 82s 98c
+Ratthew deaths:3
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Frost Protection 2 
+   Mana Potion - Greater 1   (12s 86c)
+   Mana Potion - Major 3   (6g 61s 35c)
+   Shadow Protection 3   (23g 84s 97c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 12   (2g 63s 88c)
+
+   total spent: 43g 61s 78c
+Sanwen deaths:6
+   Brilliant Mana Oil 4   (6g 19s 88c)
+   Flask of Distilled Wisdom 1   (73g 98s 79c)
+   Increased Intellect 2 
+   Invulnerability 1   (2g 90s 61c)
+   Mana Potion - Major 4   (8g 81s 80c)
+   Mana Potion - Superior 2   (98s 96c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Tea with Sugar 10   (2g 19s 90c)
+
+   total spent: 99g 88s 50c
+Starraven deaths:3
+   Blessed Wizard Oil 3   (15g 71s 91c)
+   Brilliant Wizard Oil 3   (3g 68s 85c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Dreamtonic 5   (6g 29s 90c)
+   Elixir of Greater Nature Power 2   (1g 82s 18c)
+   Fire Protection 1 
+   Flask of Supreme Power 2   (162g 39s 88c)
+   Goblin Sapper Charge 4   (11g 99s 96c)
+   Greater Arcane Elixir 2   (7g 99s 92c)
+   Healing Potion - Superior 1   (3s 99c)
+   Infallible Mind (Cerebral Cortex Compound) 2   (16g 57s 56c)
+   Mana Potion - Major 2   (4g 40s 90c)
+   Mana Potion - Superior 2   (98s 96c)
+   Nature Protection 2 
+   Potion of Quickness 5   (14g 77s 40c)
+   Shadow Protection 2   (15g 89s 98c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Tea with Sugar 12   (2g 63s 88c)
+
+   total spent: 274g 82s 3c
+Suigetsu deaths:5
+   Brilliant Mana Oil 3   (4g 64s 91c)
+   Brilliant Wizard Oil 1   (1g 22s 95c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Dreamtonic 1   (1g 25s 98c)
+   Elixir of Shadow Power 1   (3g 89s 86c)
+   Fire Protection 1 
+   Flask of Distilled Wisdom 1   (73g 98s 79c)
+   Frost Protection 1 
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Increased Stamina 1 
+   Invulnerability 1   (2g 90s 61c)
+   Mana Potion - Major 11   (24g 24s 95c)
+   Medivh's Merlot Blue Label 1   (1g 77s 94c)
+   Shadow Protection 2   (15g 89s 98c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 13   (2g 85s 87c)
+
+   total spent: 141g 50s 18c
+Sunwelp deaths:6
+   Agility 1 
+   Blessed Wizard Oil 1   (5g 23s 97c)
+   Brilliant Wizard Oil 3   (3g 68s 85c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Dreamtonic 7   (8g 81s 86c)
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of Greater Firepower 3   (13g 54s 35c)
+   Elixir of Superior Defense 1   (3g 74s 90c)
+   Flask of Supreme Power 2   (162g 39s 88c)
+   Frost Protection 2 
+   Goblin Sapper Charge 4   (11g 99s 96c)
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Increased Intellect 11 
+   Infallible Mind (Cerebral Cortex Compound) 1   (8g 28s 78c)
+   Invulnerability 4   (11g 62s 44c)
+   Mana Potion - Major 10   (22g 4s 50c)
+   Medivh's Merlot Blue Label 6   (10g 67s 64c)
+   Noggenfogger Elixir 1 
+   Potion of Quickness 1   (2g 95s 48c)
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Stratholme Holy Water 14 
+   Strength 1 
+   Tea with Sugar 14   (3g 7s 86c)
+
+   total spent: 285g 83s 78c
+Supal deaths:4
+   Dragonbreath Chili 6   (13g 37s 88c)
+   Elixir of Fortitude 2   (1g 99s 96c)
+   Elixir of Superior Defense 1   (3g 74s 90c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Fire Protection 4 
+   Flask of the Titans 1   (86g 98s 12c)
+   Free Action Potion 3   (8g 20s 98c)
+   Frost Protection 3 
+   Goblin Sapper Charge 5   (14g 99s 95c)
+   Gordok Green Grog 4 
+   Greater Arcane Elixir 2   (7g 99s 92c)
+   Increased Stamina 5 
+   Mana Potion - Major 15   (33g 6s 75c)
+   Medivh's Merlot 4   (12g 39s 96c)
+   Nature Protection 1 
+   Regeneration 2 
+   Rumsey Rum Black Label 3   (2g 4s 75c)
+   Shadow Protection 3   (23g 84s 97c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Stratholme Holy Water 36 
+   Strike of the Scorpok 1   (4g 1s 42c)
+   Tea with Sugar 31   (6g 81s 69c)
+
+   total spent: 227g 90s 1c
+Thermochron deaths:3
+   Blessed Wizard Oil 2   (10g 47s 94c)
+   Brilliant Wizard Oil 1   (1g 22s 95c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Dreamtonic 3   (3g 77s 94c)
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of Shadow Power 1   (3g 89s 86c)
+   Fire Protection 1 
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Frost Protection 4 
+   Greater Arcane Elixir 1   (3g 99s 96c)
+   Healing Potion - Major 5   (2g 84s 20c)
+   Invulnerability 3   (8g 71s 83c)
+   Mana Potion - Major 2   (4g 40s 90c)
+   Regeneration 1 
+   Shadow Protection 1   (7g 94s 99c)
+   Spirit of Zanza 1   (2g 39s 28c)
+
+   total spent: 134g 28s 87c
+Toothy deaths:0
+   Agility 1 
+   Strength 1 
+Vallcow deaths:6
+   Elixir of Fortitude 1   (99s 98c)
+   Elixir of Superior Defense 3   (11g 24s 70c)
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Frost Protection 1 
+   Goblin Sapper Charge 3   (8g 99s 97c)
+   Increased Stamina 1 
+   Medivh's Merlot 1   (3g 9s 99c)
+   Mighty Rage Potion 2   (6g 90s 72c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Strike of the Scorpok 1   (4g 1s 42c)
+   Winterfall Firewater 3   (5g 84s 97c)
+
+   total spent: 54g 89s 53c
+Xeli deaths:5
+   Dense Dynamite 3   (1g 72s 29c)
+   Elixir of Fortitude 3   (2g 99s 94c)
+   Elixir of Superior Defense 3   (11g 24s 70c)
+   Elixir of the Mongoose 3   (8g 99s 22c)
+   Fire Protection 4 
+   Flask of the Titans 1   (86g 98s 12c)
+   Free Action Potion 3   (8g 20s 98c)
+   Great Rage Potion 2   (1g 11s 78c)
+   Greater Stoneshield 10   (47g)
+   Increased Stamina 5 
+   Medivh's Merlot 2   (6g 19s 98c)
+   Mighty Rage Potion 4   (13g 81s 44c)
+   Rumsey Rum Black Label 4   (2g 73s)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Stratholme Holy Water 4 
+   Strike of the Scorpok 2   (8g 2s 84c)
+   Winterfall Firewater 9   (17g 54s 91c)
+
+   total spent: 221g 37s 76c
+Xiaofeigunn deaths:7
+   Brilliant Wizard Oil 5   (6g 14s 75c)
+   Dreamshard Elixir 2   (4g 78s 20c)
+   Dreamtonic 8   (10g 7s 84c)
+   Elixir of Greater Firepower 2   (9g 2s 90c)
+   Elixir of Greater Intellect 2   (2g 67s 68c)
+   Flask of Supreme Power 1   (81g 19s 94c)
+   Frost Protection 4 
+   Greater Arcane Elixir 2   (7g 99s 92c)
+   Increased Stamina 1 
+   Mana Potion - Major 1   (2g 20s 45c)
+   Nature Protection 2 
+   Powerful Anti-Venom 1   (1g 10s 68c)
+   Shadow Protection 2   (15g 89s 98c)
+   Spirit of Zanza 2   (4g 78s 56c)
+   Tea with Sugar 6   (1g 31s 94c)
+
+   total spent: 147g 22s 84c
+Yakub deaths:4
+   Arcane Protection 1 
+   Brilliant Mana Oil 5   (7g 74s 85c)
+   Dreamshard Elixir 1   (2g 39s 10c)
+   Elixir of Fortitude 1   (99s 98c)
+   Fire Protection 1 
+   Frost Protection 2 
+   Infallible Mind (Cerebral Cortex Compound) 1   (8g 28s 78c)
+   Mana Potion - Major 17   (37g 47s 65c)
+   Mana Regeneration (food or mageblood) 9 
+   Medivh's Merlot Blue Label 7   (12g 45s 58c)
+   Shadow Protection 1   (7g 94s 99c)
+   Swiftness of Zanza 1   (2g 39s 28c)
+   Tea with Sugar 27   (5g 93s 73c)
+
+   total spent: 85g 63s 94c
+Zhaadrom deaths:5
+   <nothing found>
+Zloveleen deaths:6
+   Elixir of Greater Agility 1   (38s 63c)
+   Elixir of the Mongoose 2   (5g 99s 48c)
+   Free Action Potion 2   (5g 47s 32c)
+   Frost Protection 1 
+   Healing Potion - Major 3   (1g 70s 52c)
+   Rage of Ages (ROIDS) 2   (6g 35s 50c)
+   Spirit of Zanza 1   (2g 39s 28c)
+   Winterfall Firewater 8   (15g 59s 92c)
+
+   total spent: 37g 90s 65c
+
+
+Cooldown Summary
+   Warrior
+      Death Wish
+         Complexity 32
+         Maybesomeday 31
+         Kuroiyuusha 30
+         Drapes 29
+         Zloveleen 28
+         Deathstruck 28
+         Martl 24
+         Agonist 23
+         Psykhe 22
+         Xeli 13
+         Vallcow 9
+         Pitbound 7
+         Melriel 1
+      Shield Wall
+         Xeli 1
+         Vallcow 1
+      Recklessness
+         Zloveleen 4
+         Martl 4
+         Kuroiyuusha 4
+         Drapes 4
+         Deathstruck 4
+         Complexity 4
+         Agonist 4
+         Psykhe 3
+         Pitbound 3
+         Maybesomeday 3
+         Melriel 1
+      Kiss of the Spider
+         Drapes 25
+         Xeli 21
+         Vallcow 8
+         Melriel 1
+      Slayer's Crest
+         Deathstruck 30
+         Martl 28
+         Drapes 27
+         Psykhe 13
+         Melriel 1
+      Badge of the Swarmguard
+         Deathstruck 12
+         Psykhe 10
+         Maybesomeday 7
+         Drapes 7
+         Martl 2
+      Earthstrike
+         Maybesomeday 13
+         Drapes 2
+      Berserking
+         Psykhe 18
+      Stoneform
+         Agonist 4
+      War Stomp
+         Pitbound 1
+      Bloodlust (received)
+         Xeli 10
+         Vallcow 7
+         Agonist 2
+         Psykhe 1
+         Pitbound 1
+         Deathstruck 1
+         Complexity 1
+   Mage
+      Combustion
+         Sunwelp 30
+         Nehelenia 17
+         Backtomay 17
+         Aquatic 17
+         Xiaofeigunn 15
+         Elsafrost 12
+      Scorch
+         Sunwelp 256
+         Backtomay 232
+         Xiaofeigunn 217
+         Nehelenia 203
+         Aquatic 196
+         Elsafrost 112
+      The Restrained Essence of Sapphiron
+         Sunwelp 25
+      Mind Quickening Gem
+         Aquatic 15
+         Nehelenia 14
+         Xiaofeigunn 13
+         Sunwelp 10
+         Elsafrost 7
+         Backtomay 7
+      Berserking
+         Sunwelp 30
+      Stoneform
+         Backtomay 1
+      Power Infusion (received)
+         Sunwelp 29
+   Shaman
+      Nature's Swiftness
+         Yakub 11
+         Ostkastare 9
+         Almout 6
+      Windfury Totem
+         Ratthew 339
+         Cracklinoats 144
+         Yakub 114
+         Almout 106
+      Mana Tide Totem
+         Ostkastare 10
+         Yakub 8
+         Almout 6
+      Grace of Air Totem
+         Ratthew 274
+         Cracklinoats 13
+         Yakub 1
+         Ostkastare 1
+         Almout 1
+      Tranquil Air Totem
+         Ostkastare 74
+      Strength of Earth Totem
+         Cracklinoats 123
+         Almout 102
+         Yakub 98
+         Ratthew 95
+      Mana Spring Totem
+         Almout 131
+         Ostkastare 77
+         Yakub 71
+         Ratthew 43
+         Cracklinoats 4
+      Searing Totem
+         Cracklinoats 16
+         Almout 8
+         Yakub 5
+         Ratthew 4
+         Ostkastare 4
+      Fire Nova Totem
+         Ratthew 9
+         Cracklinoats 4
+         Almout 1
+      Magma Totem
+         Ratthew 4
+         Cracklinoats 4
+      Ancestral Spirit
+         Ratthew 19
+         Almout 15
+         Ostkastare 6
+         Cracklinoats 2
+      Berserking
+         Yakub 20
+      War Stomp
+         Almout 2
+         Cracklinoats 1
+   Druid
+      Rebirth
+         Starraven 1
+      Earthstrike
+         Exonskull 13
+      Bloodlust (received)
+         Exonskull 3
+      Power Infusion (received)
+         Starraven 8
+   Priest
+      Inner Focus
+         Suigetsu 17
+         Nerilen 16
+         Ancst 11
+         Sanwen 8
+      Resurrection
+         Ancst 7
+         Suigetsu 4
+         Sanwen 2
+      The Eye of the Dead
+         Sanwen 9
+      Zandalarian Hero Charm
+         Nerilen 11
+         Suigetsu 4
+         Sanwen 3
+      Stoneform
+         Suigetsu 6
+      Desperate Prayer
+         Suigetsu 5
+      Will of the Forsaken
+         Ancst 1
+      Power Infusion (received)
+         Ancst 18
+         Nerilen 3
+   Paladin
+      Divine Favor
+         Interlani 24
+         Bobsterr 24
+         Jocaste 10
+      Holy Shock (heal)
+         Interlani 113
+         Bobsterr 93
+         Jocaste 23
+      Redemption
+         Jocaste 17
+         Supal 14
+         Interlani 12
+         Bobsterr 11
+      The Eye of the Dead
+         Interlani 29
+      Hibernation Crystal
+         Bobsterr 23
+      Zandalarian Hero Charm
+         Bobsterr 2
+   Rogue
+      Adrenaline Rush
+         Keeva 11
+      Blade Flurry
+         Keeva 27
+
+
+Proc Summary
+   Clearcasting
+      Exonskull 304
+      Sunwelp 96
+      Nehelenia 82
+      Starraven 81
+      Elsafrost 81
+      Aquatic 80
+      Xiaofeigunn 76
+      Backtomay 58
+   Enrage
+      Xeli 39
+      Vallcow 9
+      Psykhe 6
+      Pitbound 4
+      Martl 3
+      Maybesomeday 2
+      Drapes 2
+      Deathstruck 2
+      Complexity 2
+      Zloveleen 1
+      Agonist 1
+   Flurry
+      Xeli 482
+      Martl 482
+      Drapes 472
+      Vallcow 467
+      Zloveleen 464
+      Psykhe 442
+      Agonist 419
+      Complexity 413
+      Deathstruck 391
+      Kuroiyuusha 368
+      Pitbound 367
+      Maybesomeday 229
+      Ratthew 209
+      Cracklinoats 178
+      Melriel 37
+   Nature's Grace
+      Starraven 177
+   Spell Blasting
+      Supal 137
+      Ancst 8
+   Stormcaller's Wrath
+      Almout 11
+      Yakub 1
+   Vengeance
+      Supal 173
+   Extra Attacks
+      Hand of Justice
+         Keeva 65
+         Cracklinoats 21
+      Sword Specialization
+         Keeva 171
+      Windfury Totem
+         Psykhe 394
+         Supal 391
+         Martl 390
+         Kuroiyuusha 377
+         Deathstruck 370
+         Drapes 368
+         Zloveleen 360
+         Pitbound 350
+         Agonist 349
+         Maybesomeday 304
+         Complexity 301
+         Keeva 290
+         Xeli 281
+         Vallcow 136
+         Bobsterr 26
+         Ratthew 16
+         Yakub 13
+         Melriel 13
+         Cracklinoats 10
+         Exonskull 2
+      Windfury Weapon
+         Ratthew 492
+         Cracklinoats 440
+
+
+Annihilator Log
+   5/25 20:37:07.277  Crypt Guard gains Armor Shatter (1).
+   5/25 20:37:23.472  Anub'Rekhan gains Armor Shatter (1).
+   5/25 20:37:29.752  Vallcow 's Armor Shatter was resisted by Anub'Rekhan.
+   5/25 20:37:32.228  Anub'Rekhan gains Armor Shatter (2).
+   5/25 20:37:50.275  Crypt Guard gains Armor Shatter (2).
+   5/25 20:37:54.931  Crypt Guard gains Armor Shatter (3).
+   5/25 20:38:08.436  Anub'Rekhan gains Armor Shatter (3).
+   5/25 20:41:40.896  Anub'Rekhan gains Armor Shatter (1).
+   5/25 20:42:12.848  Pitbound 's Armor Shatter was resisted by Anub'Rekhan.
+   5/25 20:42:14.931  Anub'Rekhan gains Armor Shatter (2).
+   5/25 20:42:24.733  Anub'Rekhan gains Armor Shatter (3).
+   5/25 20:42:39.822  Crypt Guard is afflicted by Armor Shatter (1).
+   5/25 20:53:32.323  Plagued Ghoul gains Armor Shatter (1).
+   5/25 20:53:38.498  Plagued Ghoul gains Armor Shatter (1).
+   5/25 20:53:41.628  Plagued Ghoul gains Armor Shatter (2).
+   5/25 20:54:27.962  Necropolis Acolyte is afflicted by Armor Shatter (1).
+   5/25 20:57:58.355  Necropolis Acolyte is afflicted by Armor Shatter (1).
+   5/25 20:58:42.127  Maexxna gains Armor Shatter (1).
+   5/25 20:58:42.887  Maexxna gains Armor Shatter (2).
+   5/25 20:58:48.259  Maexxna gains Armor Shatter (3).
+   5/25 20:59:42.858  Vallcow 's Armor Shatter was resisted by Maexxna.
+   5/25 21:13:30.588  Instructor Razuvious gains Armor Shatter (1).
+   5/25 21:14:15.556  Armor Shatter fades from Instructor Razuvious.
+   5/25 21:14:17.290  Instructor Razuvious is afflicted by Armor Shatter (1).
+   5/25 21:16:02.650  Unholy Staff is afflicted by Armor Shatter (1).
+   5/25 21:16:16.389  Unholy Swords is afflicted by Armor Shatter (1).
+   5/25 21:51:29.797  Noth the Plaguebringer gains Armor Shatter (1).
+   5/25 21:51:31.373  Noth the Plaguebringer gains Armor Shatter (2).
+   5/25 21:51:51.274  Noth the Plaguebringer gains Armor Shatter (3).
+   5/25 21:51:51.274  Plagued Warrior is afflicted by Armor Shatter (1).
+   5/25 21:54:08.603  Mutated Grub is afflicted by Armor Shatter (1).
+   5/25 21:54:57.801  Heigan the Unclean gains Armor Shatter (1).
+   5/25 21:55:07.274  Heigan the Unclean gains Armor Shatter (2).
+   5/25 21:55:40.322  Vallcow 's Armor Shatter was resisted by Heigan the Unclean.
+   5/25 21:58:09.733  Loatheb gains Armor Shatter (1).
+   5/25 21:58:18.572  Loatheb gains Armor Shatter (2).
+   5/25 21:58:29.359  Loatheb gains Armor Shatter (3).
+   5/25 22:00:28.953  Armor Shatter fades from Loatheb.
+   5/25 22:00:32.480  Vallcow 's Armor Shatter was resisted by Loatheb.
+   5/25 22:00:47.150  Vallcow 's Armor Shatter was resisted by Loatheb.
+   5/25 22:11:46.369  Patchwork Golem is afflicted by Armor Shatter (1).
+   5/25 22:16:09.838  Patchwerk is afflicted by Armor Shatter (1).
+   5/25 22:16:15.431  Patchwerk is afflicted by Armor Shatter (2).
+   5/25 22:16:32.169  Patchwerk is afflicted by Armor Shatter (3).
+   5/25 22:17:32.119  Vallcow 's Armor Shatter was resisted by Patchwerk.
+   5/25 22:24:10.123  Grobbulus gains Armor Shatter (1).
+   5/25 22:24:28.416  Grobbulus gains Armor Shatter (2).
+   5/25 22:24:39.588  Pitbound 's Armor Shatter was resisted by Grobbulus.
+   5/25 22:25:13.389  Armor Shatter fades from Grobbulus.
+   5/25 22:25:22.339  Pitbound 's Armor Shatter was resisted by Grobbulus.
+   5/25 22:28:50.603  Gluth gains Armor Shatter (1).
+   5/25 22:28:52.202  Gluth gains Armor Shatter (2).
+   5/25 22:31:22.682  Feugen is afflicted by Armor Shatter (1).
+   5/25 22:32:05.400  Feugen is afflicted by Armor Shatter (2).
+   5/25 22:32:39.076  Vallcow 's Armor Shatter was resisted by Thaddius.
+   5/25 22:33:00.094  Thaddius gains Armor Shatter (1).
+   5/25 22:33:24.914  Thaddius gains Armor Shatter (2).
+   5/25 22:33:33.978  Thaddius gains Armor Shatter (3).
+   5/25 22:34:03.261  Vallcow 's Armor Shatter was resisted by Thaddius.
+   5/25 22:38:08.509  Sapphiron gains Armor Shatter (1).
+   5/25 22:38:11.142  Sapphiron gains Armor Shatter (2).
+   5/25 22:38:15.838  Sapphiron gains Armor Shatter (3).
+   5/25 22:39:00.759  Armor Shatter fades from Sapphiron.
+   5/25 22:39:24.007  Vallcow 's Armor Shatter was resisted by Sapphiron.
+   5/25 22:40:28.470  Sapphiron gains Armor Shatter (1).
+   5/25 22:40:42.269  Sapphiron gains Armor Shatter (2).
+
+
+Flame Buffet (dragonling) Log
+   5/25 20:36:51.276  Anub'Rekhan gains Flame Buffet (1).
+   5/25 20:36:53.946  Anub'Rekhan gains Flame Buffet (2).
+   5/25 20:37:16.525  Anub'Rekhan gains Flame Buffet (3).
+   5/25 20:37:38.996  Anub'Rekhan gains Flame Buffet (4).
+   5/25 21:51:33.635  Noth the Plaguebringer gains Flame Buffet (1).
+   5/25 21:57:55.542  Loatheb gains Flame Buffet (1).
+   5/25 21:57:55.569  Loatheb gains Flame Buffet (2).
+   5/25 21:57:55.867  Loatheb gains Flame Buffet (3).
+   5/25 21:57:57.402  Loatheb gains Flame Buffet (4).
+   5/25 21:58:18.071  Loatheb gains Flame Buffet (5).
+
+
+Gluth Log
+   5/25 22:28:11.277  Gluth gains Frenzy (1).
+   5/25 22:28:14.901  Gluth 's Frenzy is removed.
+   5/25 22:28:14.901  Murto casts Tranquilizing Shot on Gluth.
+   5/25 22:28:21.170  Gluth gains Frenzy (1).
+   5/25 22:28:24.203  Gluth 's Frenzy is removed.
+   5/25 22:28:24.203  Babystone casts Tranquilizing Shot on Gluth.
+   5/25 22:28:31.384  Gluth gains Frenzy (1).
+   5/25 22:28:35.416  Gluth 's Frenzy is removed.
+   5/25 22:28:35.416  Murto casts Tranquilizing Shot on Gluth.
+   5/25 22:28:41.387  Gluth gains Frenzy (1).
+   5/25 22:28:44.689  Gluth 's Frenzy is removed.
+   5/25 22:28:44.689  Babystone casts Tranquilizing Shot on Gluth.
+   5/25 22:28:51.448  Gluth gains Frenzy (1).
+   5/25 22:28:55.720  Gluth 's Frenzy is removed.
+   5/25 22:28:55.720  Murto casts Tranquilizing Shot on Gluth.
+   5/25 22:29:01.480  Gluth gains Frenzy (1).
+   5/25 22:29:05.071  Gluth 's Frenzy is removed.
+   5/25 22:29:05.071  Babystone casts Tranquilizing Shot on Gluth.
+   5/25 22:29:11.467  Gluth gains Frenzy (1).
+   5/25 22:29:16.001  Gluth 's Frenzy is removed.
+   5/25 22:29:16.001  Murto casts Tranquilizing Shot on Gluth.
+   5/25 22:29:21.488  Gluth gains Frenzy (1).
+   5/25 22:29:22.041  Gluth dies.
+
+
+4HM Zeliek Chain Log (4+)
+
+   5/25 21:30:51.337  Sir Zeliek 's Holy Wrath hits Ancst for 493 Holy damage.
+   5/25 21:30:51.337  Sir Zeliek 's Holy Wrath hits Plaguejak for 1208 Holy damage.
+   5/25 21:30:51.337  Sir Zeliek 's Holy Wrath hits Thermochron for 2228 Holy damage.
+   5/25 21:30:51.337  Sir Zeliek 's Holy Wrath hits Nehelenia for 4256 Holy damage.
+   5/25 21:30:51.337  Sir Zeliek 's Holy Wrath hits Jocaste for 9256 Holy damage.
+   5/25 21:30:51.381  Sir Zeliek 's Holy Wrath hits Xiaofeigunn for 18784 Holy damage.
+   5/25 21:30:51.381  Sir Zeliek 's Holy Wrath hits Babystone for 33408 Holy damage.
+   5/25 21:30:51.388  Sir Zeliek 's Holy Wrath hits Backtomay for 67328 Holy damage.
+   5/25 21:30:51.406  Sir Zeliek 's Holy Wrath hits Aquatic for 153856 Holy damage.
+   5/25 21:30:51.406  Sir Zeliek 's Holy Wrath hits Elsafrost for 286720 Holy damage.
+   5/25 21:30:51.419  Sir Zeliek 's Holy Wrath hits Sunwelp for 550912 Holy damage.
+   5/25 21:30:51.445  Sir Zeliek 's Holy Wrath hits Interlani for 1077224 Holy damage.
+   5/25 21:30:51.488  Sir Zeliek 's Holy Wrath hits Medion for 2142208 Holy damage.
+
+
+KT Shadow Fissure Log
+   5/25 22:49:28.810  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:49:52.853  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:50:19.915  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:50:30.955  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:50:51.026  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:50:53.980  Shadow Fissure 's Void Blast hits Jocaste for 117101 Shadow damage.
+   5/25 22:51:10.103  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:51:28.106  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:51:38.103  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:51:51.095  Kel'Thuzad casts Shadow Fissure.
+   5/25 22:51:54.094  Shadow Fissure 's Void Blast hits Kuroiyuusha for 151032 Shadow damage.
+   5/25 22:51:54.108  Shadow Fissure 's Void Blast hits Complexity for 88246 Shadow damage.
+   5/25 22:51:54.108  Shadow Fissure 's Void Blast hits Martl for 80370 Shadow damage. (26789 resisted)
+   5/25 22:51:54.108  Shadow Fissure 's Void Blast hits Agonist for 122430 Shadow damage.
+   5/25 22:51:54.161  Shadow Fissure 's Void Blast hits Deathstruck for 113958 Shadow damage.
+
+
+KT Frostbolt Log
+   
+   5/25 22:49:24.775  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:49:26.056  Deathstruck 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:49:26.129  Psykhe 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:49:26.292  Agonist 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:49:26.565  Ratthew 's Earth Shock hits Kel'Thuzad for 19 Nature damage.
+   
+   5/25 22:49:31.810  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:49:34.027  Ratthew 's Earth Shock hits Kel'Thuzad for 20 Nature damage.
+   5/25 22:49:34.197  Drapes 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:49:34.197  Kel'Thuzad 's Frostbolt hits Xeli for 6870 Frost damage. (1308 absorbed)
+   5/25 22:49:34.835  Melriel 's Pummel hits Kel'Thuzad for 58.
+   
+   5/25 22:49:40.855  Kel'Thuzad begins to cast Frostbolt.
+   *** honorable mention *** 5/25 22:49:41.174  Cracklinoats 's Earth Shock was resisted by Kel'Thuzad.
+   5/25 22:49:41.900  Ratthew 's Earth Shock hits Kel'Thuzad for 21 Nature damage.
+   *** honorable mention *** 5/25 22:49:41.900  Psykhe 's Pummel was parried by Kel'Thuzad.
+   5/25 22:49:42.002  Pitbound 's Shield Bash hits Kel'Thuzad for 40.
+   5/25 22:49:42.068  Deathstruck 's Pummel hits Kel'Thuzad for 58.
+   
+   5/25 22:49:52.853  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:49:53.872  Agonist 's Pummel hits Kel'Thuzad for 58.
+   *** honorable mention *** 5/25 22:49:54.140  Cracklinoats 's Earth Shock was resisted by Kel'Thuzad.
+   5/25 22:49:54.150  Deathstruck 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:49:54.369  Drapes 's Pummel hits Kel'Thuzad for 58.
+   
+   5/25 22:50:00.917  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:01.955  Ratthew 's Earth Shock hits Kel'Thuzad for 23 Nature damage.
+   5/25 22:50:02.175  Psykhe 's Pummel crits Kel'Thuzad for 116.
+   *** honorable mention *** 5/25 22:50:02.392  Cracklinoats 's Earth Shock was resisted by Kel'Thuzad.
+   5/25 22:50:02.600  Pitbound 's Shield Bash hits Kel'Thuzad for 40.
+   5/25 22:50:05.174  Keeva 's Kick crits Kel'Thuzad for 176.
+   
+   5/25 22:50:07.946  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:08.858  Ratthew 's Earth Shock hits Kel'Thuzad for 19 Nature damage.
+   5/25 22:50:09.446  Drapes 's Pummel hits Kel'Thuzad for 58.
+   
+   5/25 22:50:23.968  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:24.853  Ratthew 's Earth Shock hits Kel'Thuzad for 21 Nature damage.
+   5/25 22:50:25.071  Drapes 's Pummel hits Kel'Thuzad for 52.
+   5/25 22:50:26.417  Agonist 's Pummel crits Kel'Thuzad for 120.
+   *** honorable mention *** 5/25 22:50:26.417  Deathstruck 's Pummel was parried by Kel'Thuzad.
+   
+   5/25 22:50:36.009  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:37.150  Ratthew 's Earth Shock hits Kel'Thuzad for 29 Nature damage.
+   5/25 22:50:37.150  Psykhe 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:50:37.150  Pitbound 's Shield Bash crits Kel'Thuzad for 80.
+   5/25 22:50:37.238  Kuroiyuusha 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:50:37.306  Keeva 's Kick hits Kel'Thuzad for 88.
+   5/25 22:50:37.306  Drapes 's Pummel crits Kel'Thuzad for 116.
+   *** honorable mention *** 5/25 22:50:38.357  Deathstruck 's Pummel was parried by Kel'Thuzad.
+   
+   5/25 22:50:42.087  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:42.959  Agonist 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:50:43.034  Melriel 's Pummel crits Kel'Thuzad for 116.
+   
+   5/25 22:50:53.072  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:50:53.931  Ratthew 's Earth Shock hits Kel'Thuzad for 19 Nature damage.
+   5/25 22:50:53.931  Pitbound 's Shield Bash hits Kel'Thuzad for 40.
+   5/25 22:50:54.137  Drapes 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:50:54.152  Deathstruck 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:50:54.421  Keeva 's Kick hits Kel'Thuzad for 88.
+   
+   5/25 22:51:07.150  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:51:08.110  Ratthew 's Earth Shock hits Kel'Thuzad for 21 Nature damage.
+   *** honorable mention *** 5/25 22:51:08.174  Drapes 's Pummel was parried by Kel'Thuzad.
+   5/25 22:51:08.249  Pitbound 's Shield Bash crits Kel'Thuzad for 80.
+   
+   5/25 22:51:19.187  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:51:19.989  Ratthew 's Earth Shock hits Kel'Thuzad for 20 Nature damage.
+   5/25 22:51:20.155  Agonist 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:51:20.360  Deathstruck 's Pummel hits Kel'Thuzad for 68.
+   5/25 22:51:20.360  Psykhe 's Pummel hits Kel'Thuzad for 58.
+   5/25 22:51:21.776  Keeva 's Kick hits Kel'Thuzad for 88.
+   
+   5/25 22:51:36.168  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:51:37.843  Psykhe 's Pummel hits Kel'Thuzad for 61.
+   
+   5/25 22:51:47.090  Kel'Thuzad begins to cast Frostbolt.
+   5/25 22:51:48.825  Psykhe 's Pummel hits Kel'Thuzad for 61.
+
+
+KT Frost Blast Log
+   5/25 22:50:04.823  Pitbound is afflicted by Frost Blast (1).
+   5/25 22:50:04.823  Kuroiyuusha is afflicted by Frost Blast (1).
+   5/25 22:50:04.870  Vallcow is afflicted by Frost Blast (1).
+   5/25 22:50:04.895  Agonist is afflicted by Frost Blast (1).
+   5/25 22:50:04.895  Supal is afflicted by Frost Blast (1).
+   5/25 22:50:04.899  Cracklinoats is afflicted by Frost Blast (1).
+   5/25 22:50:04.899  Melriel is afflicted by Frost Blast (1).
+   5/25 22:50:05.834  Kel'Thuzad 's Frost Blast hits Melriel for 1399 Frost damage.
+   5/25 22:50:05.834  Kel'Thuzad 's Frost Blast is absorbed by Cracklinoats.
+   5/25 22:50:05.837  Kel'Thuzad 's Frost Blast is absorbed by Supal.
+   5/25 22:50:05.837  Kel'Thuzad 's Frost Blast hits Agonist for 1429 Frost damage.
+   5/25 22:50:05.837  Kel'Thuzad 's Frost Blast is absorbed by Kuroiyuusha.
+   5/25 22:50:05.837  Kel'Thuzad 's Frost Blast hits Vallcow for 859 Frost damage. (686 absorbed)
+   5/25 22:50:05.837  Kel'Thuzad 's Frost Blast hits Pitbound for 1771 Frost damage.
+   5/25 22:50:06.829  Kel'Thuzad 's Frost Blast hits Melriel for 1399 Frost damage.
+   5/25 22:50:06.829  Kel'Thuzad 's Frost Blast is absorbed by Cracklinoats.
+   5/25 22:50:06.829  Kel'Thuzad 's Frost Blast hits Supal for 576 Frost damage. (1247 absorbed)
+   5/25 22:50:06.829  Kel'Thuzad 's Frost Blast hits Agonist for 1429 Frost damage.
+   5/25 22:50:06.838  Kel'Thuzad 's Frost Blast hits Kuroiyuusha for 496 Frost damage. (954 absorbed)
+   5/25 22:50:06.838  Kel'Thuzad 's Frost Blast hits Vallcow for 1545 Frost damage.
+   5/25 22:50:06.838  Kel'Thuzad 's Frost Blast hits Pitbound for 1771 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Melriel for 1399 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Cracklinoats for 1133 Frost damage. (108 absorbed)
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Supal for 1823 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Agonist for 1429 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Kuroiyuusha for 1450 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Vallcow for 1545 Frost damage.
+   5/25 22:50:07.856  Kel'Thuzad 's Frost Blast hits Pitbound for 1771 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Melriel for 1399 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Cracklinoats for 1241 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Supal for 1823 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Agonist for 1429 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Kuroiyuusha for 1450 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Vallcow for 1545 Frost damage.
+   5/25 22:50:08.858  Kel'Thuzad 's Frost Blast hits Pitbound for 1771 Frost damage.
+   5/25 22:50:09.846  Kel'Thuzad 's Frost Blast hits Melriel for 1399 Frost damage.
+   5/25 22:50:09.846  Kel'Thuzad 's Frost Blast hits Cracklinoats for 1241 Frost damage.
+   5/25 22:50:09.846  Kel'Thuzad 's Frost Blast hits Supal for 1823 Frost damage.
+   5/25 22:50:09.846  Kel'Thuzad 's Frost Blast hits Agonist for 1429 Frost damage.
+   5/25 22:50:09.853  Kel'Thuzad 's Frost Blast hits Kuroiyuusha for 1450 Frost damage.
+   5/25 22:50:09.853  Kel'Thuzad 's Frost Blast hits Vallcow for 1545 Frost damage.
+   5/25 22:50:09.853  Kel'Thuzad 's Frost Blast hits Pitbound for 1771 Frost damage.
+   5/25 22:50:44.088  Nehelenia is afflicted by Frost Blast (1).
+   5/25 22:50:45.215  Kel'Thuzad 's Frost Blast hits Nehelenia for 12 Frost damage. (977 absorbed)
+   5/25 22:50:46.120  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:50:47.115  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:50:48.212  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:50:49.120  Kel'Thuzad 's Frost Blast is absorbed by Nehelenia.
+   5/25 22:51:17.237  Nehelenia is afflicted by Frost Blast (1).
+   5/25 22:51:18.127  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:51:19.187  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:51:20.155  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:51:21.174  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+   5/25 22:51:22.169  Kel'Thuzad 's Frost Blast hits Nehelenia for 989 Frost damage.
+
+
+Pets
+   Toothy owned by Babystone
+   Murto owned by Murto
+   Deathknight Understudy owned by Suigetsu
+   Naxxramas Worshipper owned by Suigetsu
+
+
+Class Detection
+   Agonist warrior
+   Almout shaman
+   Ancst priest
+   Aquatic mage
+   Babystone hunter
+   Backtomay mage
+   Bobsterr paladin
+   Complexity warrior
+   Cracklinoats shaman
+   Deathstruck warrior
+   Drapes warrior
+   Elsafrost mage
+   Exonskull druid
+   Interlani paladin
+   Jocaste paladin
+   Keeva rogue
+   Kuroiyuusha warrior
+   Martl warrior
+   Maybesomeday warrior
+   Medion warlock
+   Melriel warrior
+   Murto hunter
+   Nehelenia mage
+   Nerilen priest
+   Ostkastare shaman
+   Pitbound warrior
+   Plaguejak warlock
+   Psykhe warrior
+   Ratthew shaman
+   Sanwen priest
+   Starraven druid
+   Suigetsu priest
+   Sunwelp mage
+   Supal paladin
+   Thermochron warlock
+   Toothy unknown
+   Vallcow warrior
+   Xeli warrior
+   Xiaofeigunn mage
+   Yakub shaman
+   Zhaadrom unknown
+   Zloveleen warrior
+
+
+Tech
+   project version 2024.1063
+   project homepage https://github.com/melbaa/summarize_consumes
+   prices timestamp 2024-05-25T00:00:01.657544 (19 hours ago)
+   log size 33.7 MB
+   log lines 466514
+   skipped log lines 15 (0.00%)
+   processed in 72.93 seconds. 6396.62 log lines/sec

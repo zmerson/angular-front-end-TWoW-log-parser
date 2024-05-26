@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>{{ warrior?.name }}</h1>
+    <div class="columns">
+        <div class="column">
+            <h2>cooldown usage</h2>
+            <div *ngFor="let cd of cooldowns | keyvalue">
+                <div *ngIf="cd.value > 0">
+                    <img src="..\..\{{ this.paths[cd.key] }}">  <span >{{ cd.key }}: {{ cd.value }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <h2>extra attacks</h2>
+            <ul>
+                <!-- <li *ngFor="let proc of warrior?.procs">{{ proc }}</li> -->
+            </ul>
+        </div>
+        <div class="column">
+            
+            <ul>
+                <button (click)="getCDs()">Log</button>
+                <div *ngIf="warrior">
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
