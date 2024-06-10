@@ -48,11 +48,10 @@ export class AppComponent {
   cooldowns: any; // ✅
   deaths: any;
   warriorCoolDownStr: string = "none"; // ✅
-  // ngOnInit(): void {
-  //   fetch(this.logPath)
-  //   .then(response => response.text())
-  //   .then( text => this.fileContent = text);
-  // }
+  ngOnInit(): void {
+    this.readFile()
+    // .then( () => this.parseWarrior())
+  }
 
   public logContent(){
     console.log(this.fileContent);
@@ -68,23 +67,24 @@ export class AppComponent {
       headers: headers,
       responseType: "'text'"
     }
+
     this.http.request('GET', this.logPath, {responseType: 'text'})
         .subscribe((data: any) => {
         console.log(data)  
         // text = data;
         this.fileContent = data;
-        // console.log('file content\n' + this.fileContent)
+        console.log('file content\n' + this.fileContent)
+        this.parseWarrior();
         })
-    
+
   }
   readTextBox(): void {
-    const textBox = document.getElementById('textBox') as HTMLTextAreaElement;
-    this.fileContent = textBox.textContent;
+    const textBox = document.getElementById('text-box') as HTMLTextAreaElement;
+    this.fileContent = textBox.value;
     console.log('set file with textbox', this.fileContent)
   }
   public async parseWarrior(): Promise<void> {
 
-    
     if (this.fileContent) {
       // if (this.fileContent.includes("Warrior")) {
         let warriorIndex = this.fileContent.indexOf("Warrior");
@@ -99,27 +99,28 @@ export class AppComponent {
         this.procStr = str.substring(str.indexOf("Proc Summary"), str.length-1)
         this.enrageStr = this.procStr.substring(str.indexOf("Enrage"), str.indexOf("Flurry"))
         this.flurryStr = this.procStr.substring(this.procStr.indexOf("Flurry"), this.procStr.indexOf("Nature"))
-        console.log("index of extra attack " + this.procStr.indexOf("Extra Attacks"));
+        const extraAttackIndex = this.procStr.indexOf("Extra Attacks")
+        console.log("index of extra attack " + extraAttackIndex);
         const procStrEnd = this.procStr.indexOf("Annihilator");
         this.procStr = this.procStr.substring(0, procStrEnd)
         console.log(" proc str \n" + this.procStr)
-        this.extraAttacksStr = this.procStr.substring(this.procStr.indexOf("Extra Attacks"), this.procStr.length-1)
+        this.extraAttacksStr = this.procStr.substring(extraAttackIndex, this.procStr.length-1)
         this.getExtraAttacks(this.extraAttacksStr)
 
         this.getDeaths();
         this.classDetectionStr = this.fileContent.substring(classDetectionIndex, classDetectionIndex + 5000)
-        console.log(this.classDetectionStr)
+        //console.log(this.classDetectionStr)
         this.warriors = this.getWarriorNames(this.classDetectionStr);
-        console.log(this.warriors);
+        //console.log(this.warriors);
         const cooldownUsage = this.getCooldownsUsage();
         this.warriors.forEach( (warrior) => {
           let procs: Procs = this.getProcs(warrior);
           let warriorObj: Warrior = {
             name: warrior,
-            cooldowns: this.setCDS(warrior, this.getCDforWar(warrior, cooldownUsage)), //? cooldownUsage[warrior] : {deathWish: 0,recklessness: 0,retaliation: 0,shieldWall: 0,lastStand: 0,kissOfTheSpider: 0,slayersCrest: 0,badgeOfTheSwarmguard: 0,earthstrike: 0,diamondFlask: 0,berserking: 0,stoneform: 0,warStomp: 0,bloodLust: 0},
+            cooldowns: this.getCDforWar(warrior, cooldownUsage), //? cooldownUsage[warrior] : {deathWish: 0,recklessness: 0,retaliation: 0,shieldWall: 0,lastStand: 0,kissOfTheSpider: 0,slayersCrest: 0,badgeOfTheSwarmguard: 0,earthstrike: 0,diamondFlask: 0,berserking: 0,stoneform: 0,warStomp: 0,bloodLust: 0},
             procs: this.getProcs(warrior)
           }
-          console.log('warrior obj\n', warriorObj)
+          //console.log('warrior obj\n', warriorObj)
           this.warriorsArray.push(warriorObj);
         })
       // }
@@ -129,12 +130,12 @@ export class AppComponent {
 
     }
   }
-  private setCDS(warrior: string, cd: any, procs?: any): any {
-    console.log('in set cds using ', cd)
-        // let war: Warrior = {name: warrior, cooldowns: cd }
-        let war = cd;
-        return war
-  }
+  // private setCDS(warrior: string, cd: any, procs?: any): any {
+  //   ///console.log('in set cds using ', cd)
+  //       // let war: Warrior = {name: warrior, cooldowns: cd }
+  //       let war = cd;
+  //       return war
+  // }
   getCDforWar(warrior: string, cooldownUsage: CooldownBuilder[] | null): any {
     
     let cds: Cooldowns = new Cooldowns();
@@ -216,10 +217,10 @@ export class AppComponent {
   }
   isABoss(str: string): boolean {
     if (this.bossStrings.includes(str)) {
-      console.log('boss found ' + str);
+      // console.log('boss found ' + str);
       return true;
     }
-    console.log('boss not found ' + str);
+    // console.log('boss not found ' + str);
     return false;
   }
   getExtraAttacksUsage(str: string): string {

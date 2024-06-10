@@ -84,7 +84,7 @@ export class CooldownIconPaths {
         "Gri'lek's Charm of Might": string;
         constructor() {
             this["Death Wish"] = "assets/icons/deathwish.png";
-            this["Recklessness"] = "assets/icons/recklessness.png";
+            this["Recklessness"] = "assets/icons/reck.png";
             this["Retaliation"] = "assets/icons/retaliation.png";
             this["Shield Wall"] = "assets/icons/wall.png";
             this["Last Stand"] = "assets/icons/laststand.png";

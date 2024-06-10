@@ -2,7 +2,39 @@
     max-width: 1200px;
     margin: 0 auto;
     background-color: #8b451378;
-    padding: 20px;
+    padding: 2px;
     border-radius: 5px;
+    border: 2px solid #333;
+    outline: 3px solid #8b451378;
+}
+// #icon {
+//     width: 100%;
+//     height: 100%;
+// }
+.item-value {
+    grid-area: item-value;
+    align-self: center ;
+    text-align: center;
+}
+.item-header{
+    grid-area: item-header;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-icon{
+    grid-area: item-icon;
+    width: 75px;
+    height: 75px;
+}
+.cd-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "item-header item-header"
+      "item-icon item-value";
     border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #8b451378;
 }

@@ -1,21 +1,23 @@
 <div class="container">
     <h1>{{ warrior?.name }}</h1>
-    <div class="columns">
-        <div class="column">
-            <h2>cooldown usage</h2>
-            <div *ngFor="let cd of cooldowns | keyvalue">
-                <div *ngIf="cd.value > 0">
-                    <img src="..\..\{{ this.paths[cd.key] }}">  <span >{{ cd.key }}: {{ cd.value }}</span>
+    <div class="rows">
+        <div class="row">
+            <h2>Cooldown Usage</h2>
+            <div *ngFor="let cd of cooldowns | keyvalue"> 
+                <!-- need a keyvalue function that only returns true when cd.value is greater than 0 cause this is rendering empty divs  -->
+                <div class="cd-item" *ngIf="cd.value > 0">
+                    <div class="item-header">{{cd.key}}</div>
+                    <img class="item-icon" src="..\..\{{ this.paths[cd.key] }}">  <span class="item-value" style="font-size: 62px">{{ cd.value }}</span>
                 </div>
             </div>
         </div>
-        <div class="column">
+        <div class="row">
             <h2>extra attacks</h2>
             <ul>
                 <!-- <li *ngFor="let proc of warrior?.procs">{{ proc }}</li> -->
             </ul>
         </div>
-        <div class="column">
+        <div class="row">
             
             <ul>
                 <button (click)="getCDs()">Log</button>
