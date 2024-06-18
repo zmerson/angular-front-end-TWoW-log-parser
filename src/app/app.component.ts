@@ -44,7 +44,7 @@ export class AppComponent {
   classDetectionStr: string = "none" // ✅
   warriors: string[] = [];  // ✅
   warriorsArray: Warrior[] = [];  // ✅
-  logPath: string = '../assets/log.txt'; // ✅
+  logPath: string = './assets/log.txt'; // ✅
   cooldowns: any; // ✅
   deaths: any;
   warriorCoolDownStr: string = "none"; // ✅

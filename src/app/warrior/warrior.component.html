@@ -6,7 +6,7 @@
                 <!-- need a keyvalue function that only returns true when cd.value is greater than 0 cause this is rendering empty divs  -->
                 <div class="cd-item" *ngIf="cd.value > 0">
                     <div class="item-header">{{cd.key}}</div>
-                    <img class="item-icon" src="..\..\{{ this.paths[cd.key] }}">  <span class="item-value" style="font-size: 62px">{{ cd.value }}</span>
+                    <img class="item-icon" src=".\{{ this.paths[cd.key] }}">  <span class="item-value" style="font-size: 62px">{{ cd.value }}</span>
                 </div>
             </div>
         </div>
