@@ -5,18 +5,16 @@
   <a ruterLink="/contact"></a>
 </nav> -->
 <input type="file" (change)="onChange($event)">
-<button type="file" (click)="readFile()">Read File</button><br><br>
-<button (click)="parseWarrior()"> Parse </button>
-<button (click)="logContent()"> Log </button>
-<button (click)="readTextBox()">getBox</button>
+<button id="parse-btn" *ngIf="newInput" (click)="parseWarrior()">Parse New File</button>
 <!-- <button (click)="getExtraAttacks()"> Get Extra Attacks </button> -->
 
 <!-- <button (click)="getProcs()"> Get Procs </button> -->
-<button (click)="getDeaths()"> Get Deaths</button>
-<div>
-      <div id="grid">
-        <app-warrior *ngFor="let warrior of warriorsArray" [warrior]="warrior" />
-      </div>
-    <h3>File Content</h3>
-        <textarea id="text-box">{{ fileContent }}</textarea>
+<!-- <button (click)="getDeaths()"> Get Deaths</button> -->
+<div id="grid">
+  <app-warrior *ngFor="let warrior of warriorsArray" [warrior]="warrior" />
+</div>
+<div id="bottom-container">
+  <h2>File Content</h2>
+  <button id="textbox-btn" (click)="readTextBox()">Parse New Text</button>
+  <textarea id="text-box">{{ fileContent }}</textarea>
 </div>

@@ -36,3 +36,23 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+button, input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #274993;
+    color: rgb(179, 248, 244);
+    cursor: pointer;
+}
+button:hover {
+    border: 4px solid #333;
+}
+#parse-btn {
+    background-color: rgb(28, 211, 49);
+}
+#bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

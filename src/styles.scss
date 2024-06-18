@@ -1,5 +1,15 @@
 body {
      // use the images in the assets\background folder to set the background of the host element
-     background-image: url('assets/background/humanmale.png');
+     background-image:     
+     linear-gradient(
+          rgba(68, 162, 93, 0.22), 
+          rgba(157, 255, 0, 0.45)
+        ),
+     url('assets/background/img.jpg');
+     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+
      // background-image: url('assets/background/.jpg');
+}
+body::after{
+     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }

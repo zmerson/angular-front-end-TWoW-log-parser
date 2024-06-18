@@ -2,7 +2,6 @@
     <h1>{{ warrior?.name }}</h1>
     <div class="rows">
         <div class="row">
-            <h2>Cooldown Usage</h2>
             <div *ngFor="let cd of cooldowns | keyvalue"> 
                 <!-- need a keyvalue function that only returns true when cd.value is greater than 0 cause this is rendering empty divs  -->
                 <div class="cd-item" *ngIf="cd.value > 0">
@@ -17,13 +16,13 @@
                 <!-- <li *ngFor="let proc of warrior?.procs">{{ proc }}</li> -->
             </ul>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             
             <ul>
                 <button (click)="getCDs()">Log</button>
                 <div *ngIf="warrior">
                 </div>
             </ul>
-        </div>
+        </div> -->
     </div>
 </div>

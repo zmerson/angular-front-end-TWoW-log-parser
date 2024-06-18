@@ -44,10 +44,13 @@ export class AppComponent {
   classDetectionStr: string = "none" // ✅
   warriors: string[] = [];  // ✅
   warriorsArray: Warrior[] = [];  // ✅
-  logPath: string = '../assets/log2.txt'; // ✅
+  logPath: string = '../assets/log.txt'; // ✅
   cooldowns: any; // ✅
   deaths: any;
   warriorCoolDownStr: string = "none"; // ✅
+  inputFile = true;
+  newInput = false;
+
   ngOnInit(): void {
     this.readFile()
     // .then( () => this.parseWarrior())
@@ -82,6 +85,7 @@ export class AppComponent {
     const textBox = document.getElementById('text-box') as HTMLTextAreaElement;
     this.fileContent = textBox.value;
     console.log('set file with textbox', this.fileContent)
+    this.parseWarrior();
   }
   public async parseWarrior(): Promise<void> {
 
@@ -123,12 +127,12 @@ export class AppComponent {
           //console.log('warrior obj\n', warriorObj)
           this.warriorsArray.push(warriorObj);
         })
-      // }
-      // else{
-      //   console.log('no warrior found')
-      // }
-
+   
     }
+    else{
+      console.log('no file content')
+    }
+    this.newInput = false;
   }
   // private setCDS(warrior: string, cd: any, procs?: any): any {
   //   ///console.log('in set cds using ', cd)
@@ -296,6 +300,7 @@ export class AppComponent {
     return false;
   }
   public onChange(e: any): void {
+    this.inputFile = true;
     const fileList = e.target.files; 
     let file = fileList[0];
     let fileReader: FileReader = new FileReader();
@@ -304,6 +309,7 @@ export class AppComponent {
       self.fileContent = fileReader.result;
     }
     fileReader.readAsText(file);
+    this.newInput = true;
     // this.fileContent = fileReader.result;
   }
 }

@@ -1,11 +1,27 @@
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 1200px;
+    min-width: 300px;
     margin: 0 auto;
     background-color: #8b451378;
     padding: 2px;
     border-radius: 5px;
     border: 2px solid #333;
     outline: 3px solid #8b451378;
+}
+h1 {
+    align-self: center;
+    background-color: #2b0707a2;
+    box-shadow: 0 0 2px 1px #672f2f;
+    line-height: 110%;
+    width: 75%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px;
+    font-weight: 700;
+    font-family: "Luminari", "fantasy";
+    text-shadow: 0 1px 2px rgb(80, 32, 32);
 }
 // #icon {
 //     width: 100%;
