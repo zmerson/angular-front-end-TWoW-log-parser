@@ -73,10 +73,8 @@ export class AppComponent {
 
     this.http.request('GET', this.logPath, {responseType: 'text'})
         .subscribe((data: any) => {
-        console.log(data)  
-        // text = data;
         this.fileContent = data;
-        console.log('file content\n' + this.fileContent)
+        // console.log('file content\n' + this.fileContent)
         this.parseWarrior();
         })
 
@@ -84,7 +82,8 @@ export class AppComponent {
   readTextBox(): void {
     const textBox = document.getElementById('text-box') as HTMLTextAreaElement;
     this.fileContent = textBox.value;
-    console.log('set file with textbox', this.fileContent)
+    // console.log('set file with textbox', this.fileContent)
+    this.warriorsArray = [];
     this.parseWarrior();
   }
   public async parseWarrior(): Promise<void> {
@@ -161,7 +160,7 @@ export class AppComponent {
     return str;
   }
   getProcs(warrior: string): Procs {
-    let procs: Procs = { Flurry: 0, Enrage: 0 }
+    let procs: Procs = { Flurry: 0, Enrage: 0, Windfury: 0, "Windfury Weapon": 0 }
     let toArray = this.procStr.split("\n");
     let warriorIndex = toArray.indexOf(warrior);
     console.log(toArray)
@@ -174,19 +173,17 @@ export class AppComponent {
         if (this.procStr[i] == "Enrage") {
           procs.Enrage = Number(toArray[warriorIndex + 1]);
       }
-    }
-      for (let i = warriorIndex; i < toArray.length; i++) {
-        if (this.procStr[i] == "Flurry") {
-          procs.Flurry = Number(toArray[warriorIndex + 1]);
+        if (this.procStr[i] == "Windfury Totem") {
+          procs.Windfury = Number(toArray[warriorIndex + 1]);
         }
-        if (this.procStr[i] == "Enrage") {
-          procs.Enrage = Number(toArray[warriorIndex + 1]);
+        if (this.procStr[i] == "Windfury Weapon") {
+          procs['Windfury Weapon']= Number(toArray[warriorIndex + 1]);
       }
     }
     console.log("got procs" , procs)
       return procs
     } else{
-      return { Flurry: 0, Enrage: 0 }
+      return { Flurry: 0, Enrage: 0, "Windfury Weapon": 0, Windfury: 0 }
 
     }
   }

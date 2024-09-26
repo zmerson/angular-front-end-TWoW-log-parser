@@ -12,7 +12,7 @@
 }
 h1 {
     align-self: center;
-    background-color: #2b0707a2;
+    background-color: rgba(43, 7, 7, 0.6352941176);
     box-shadow: 0 0 2px 1px #672f2f;
     line-height: 110%;
     width: 75%;
@@ -20,8 +20,9 @@ h1 {
     border-radius: 4px;
     padding: 2px;
     font-weight: 700;
-    font-family: "Luminari", "fantasy";
+    font-family: inherit;
     text-shadow: 0 1px 2px rgb(80, 32, 32);
+    color: #ff9c9c94;
 }
 // #icon {
 //     width: 100%;

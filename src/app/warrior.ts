@@ -14,6 +14,8 @@ export class ExtraAttacks {
 export class Procs {
     "Flurry": number;
     "Enrage": number;
+    "Windfury": number;
+    "Windfury Weapon": number;
 }
 export class Cooldowns {
     "Death Wish": number;
