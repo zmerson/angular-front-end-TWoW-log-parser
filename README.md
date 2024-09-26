@@ -1,7 +1,7 @@
 # Wowlogapp
 
-## Deployed on [Pages](https://github.com/zmerson/angular-front-end-TWoW-log-parser/blob/main/README.md)
-https://github.com/zmerson/angular-front-end-TWoW-log-parser/blob/main/README.md
+## Deployed on [Pages](https://zmerson.github.io/angular-front-end-TWoW-log-parser/)
+https://zmerson.github.io/angular-front-end-TWoW-log-parser/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
